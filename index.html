@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Credit Card Fraud Detection</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for(filename='styles.css') }}">
 </head>
 <body>
     <h1>Credit Card Fraud Detection</h1>
@@ -19,6 +19,6 @@
     </form>
     <div id="result"></div>
 
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="{{ url_for(filename='script.js') }}"></script>
 </body>
 </html>
